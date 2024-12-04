@@ -43,4 +43,4 @@ Dengan Penangguhan Scheduler: Dengan menggunakan taskENTER_CRITICAL() dan taskEX
 Percobaan ini menunjukkan bahwa menangguhkan scheduler dapat mencegah kontensi akses ke sumber daya bersama. Dengan menggunakan mekanisme ini, kita dapat memastikan bahwa hanya satu tugas yang mengakses sumber daya pada satu waktu, sehingga menghindari masalah seperti data korupsi atau perilaku sistem yang tidak diinginkan. Namun, perlu diingat bahwa menangguhkan scheduler dapat mempengaruhi performa sistem secara keseluruhan, karena semua multitasking dihentikan selama akses ke sumber daya. Oleh karena itu, penggunaan teknik ini harus dilakukan dengan hati-hati dan hanya pada bagian kode yang benar-benar memerlukan pengendalian akses ketat.
 
 
-Link Video Demo : https://drive.google.com/file/d/1qILxam1RzgKXJZZGh8EzzFH0kZOmbXci/view?usp=sharing
+Link Video Demo : https://drive.google.com/file/d/18sVUitX4zSq2Alcds6f8_wS8_q3T2S_R/view?usp=sharing
